@@ -421,7 +421,8 @@ add_library(vtkRenderingOpenGL2 STATIC IMPORTED)
 
 set_target_properties(vtkRenderingOpenGL2 PROPERTIES
   INTERFACE_COMPILE_FEATURES "cxx_nullptr;cxx_override"
-  INTERFACE_LINK_LIBRARIES "vtkCommonCore;vtkCommonDataModel;vtkRenderingCore;vtkRenderingCore;\$<LINK_ONLY:vtkCommonExecutionModel>;\$<LINK_ONLY:vtkCommonMath>;\$<LINK_ONLY:vtkCommonSystem>;\$<LINK_ONLY:vtkCommonTransforms>;\$<LINK_ONLY:vtkglew>;\$<LINK_ONLY:vtksys>;/Users/fushixiang/sdk/android_sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libEGL.so;\$<LINK_ONLY:android>"
+#  INTERFACE_LINK_LIBRARIES "vtkCommonCore;vtkCommonDataModel;vtkRenderingCore;vtkRenderingCore;\$<LINK_ONLY:vtkCommonExecutionModel>;\$<LINK_ONLY:vtkCommonMath>;\$<LINK_ONLY:vtkCommonSystem>;\$<LINK_ONLY:vtkCommonTransforms>;\$<LINK_ONLY:vtkglew>;\$<LINK_ONLY:vtksys>;/Users/fushixiang/sdk/android_sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libEGL.so;\$<LINK_ONLY:android>"
+  INTERFACE_LINK_LIBRARIES "vtkCommonCore;vtkCommonDataModel;vtkRenderingCore;vtkRenderingCore;\$<LINK_ONLY:vtkCommonExecutionModel>;\$<LINK_ONLY:vtkCommonMath>;\$<LINK_ONLY:vtkCommonSystem>;\$<LINK_ONLY:vtkCommonTransforms>;\$<LINK_ONLY:vtkglew>;\$<LINK_ONLY:vtksys>;D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\24\\libEGL.so;\$<LINK_ONLY:android>"
 )
 
 # Create imported target vtkRenderingVolume

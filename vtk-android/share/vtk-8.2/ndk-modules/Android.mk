@@ -408,7 +408,8 @@ LOCAL_SRC_FILES := $(_IMPORT_PREFIX)/lib/libvtkRenderingOpenGL2-8.2.a
 LOCAL_CPP_FEATURES := rtti exceptions
 # INTERFACE_COMPILE_FEATURES cxx_nullptr;cxx_override
 LOCAL_STATIC_LIBRARIES := vtkCommonCore vtkCommonDataModel vtkRenderingCore vtkRenderingCore vtkCommonExecutionModel vtkCommonMath vtkCommonSystem vtkCommonTransforms vtkglew vtksys
-LOCAL_EXPORT_LDLIBS := /Users/fushixiang/sdk/android_sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libEGL.so -landroid
+#LOCAL_EXPORT_LDLIBS := /Users/fushixiang/sdk/android_sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libEGL.so -landroid7
+LOCAL_EXPORT_LDLIBS := D:\\Android\\Sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\24\\libEGL.so -landroid
 LOCAL_HAS_CPP := true
 include $(PREBUILT_STATIC_LIBRARY)
 
